@@ -1,0 +1,24 @@
+//
+//  linlongdemo.pch
+//  linlongdemo
+//
+//  Created by 杜林隆 on 16/3/4.
+//  Copyright © 2016年 dulinlong. All rights reserved.
+//
+
+#ifndef linlongdemo_pch
+#define linlongdemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "MJExtension.h"
+#import "Masonry.h"
+
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+#endif /* linlongdemo_pch */
