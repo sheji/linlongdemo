@@ -41,6 +41,10 @@
                                  @"navTitle":@"类中NSString的copy分析",
                                  @"dec":@"类中NSString的copy分析"
                                  },
+                           @{    @"vcClassName":@"CategotyToolsTestViewController",
+                                 @"navTitle":@"分类工具测试",
+                                 @"dec":@"分类工具测试"
+                                 },
                        
                           ];
     _dataArray = [MainModel mj_objectArrayWithKeyValuesArray:dataArray];
