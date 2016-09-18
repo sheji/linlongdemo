@@ -45,6 +45,10 @@
                                  @"navTitle":@"分类工具测试",
                                  @"dec":@"分类工具测试"
                                  },
+                           @{    @"vcClassName":@"WaterFallMainViewController",
+                                 @"navTitle":@"瀑布流",
+                                 @"dec":@"瀑布流"
+                                 },
                        
                           ];
     _dataArray = [MainModel mj_objectArrayWithKeyValuesArray:dataArray];

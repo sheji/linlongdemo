@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD7EDFCDDE3609ACCF016421 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBBD5A376F2767F4CA6B30 /* libPods.a */; };
+		075336C5DADA388D3DE1DB11 /* libPods-linlongdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B42D7CE35983D1C00BEB50B /* libPods-linlongdemo.a */; };
+		823FCE191D8E3F15001E9560 /* WaterFallMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823FCE181D8E3F15001E9560 /* WaterFallMainViewController.m */; };
+		823FCE1C1D8E7787001E9560 /* DUWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 823FCE1B1D8E7787001E9560 /* DUWaterFallLayout.m */; };
+		823FCE251D8E78CC001E9560 /* ZXRShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 823FCE211D8E78CC001E9560 /* ZXRShop.m */; };
+		823FCE261D8E78CC001E9560 /* ZXRShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823FCE231D8E78CC001E9560 /* ZXRShopCell.m */; };
+		823FCE271D8E78CC001E9560 /* ZXRShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FCE241D8E78CC001E9560 /* ZXRShopCell.xib */; };
+		823FCE291D8E78DA001E9560 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 823FCE281D8E78DA001E9560 /* 1.plist */; };
 		E61BE0B61D4E4CD500DBB083 /* HeapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61BE0B51D4E4CD500DBB083 /* HeapViewController.m */; };
 		E64D74421D7007ED00C10872 /* CategotyToolsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D74411D7007ED00C10872 /* CategotyToolsTestViewController.m */; };
 		E64D79451D71F5F500C10872 /* CLLocation+CH1903.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D77FE1D71F5F500C10872 /* CLLocation+CH1903.m */; };
@@ -162,8 +168,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DBBBD5A376F2767F4CA6B30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B78ABE58440144CF76A53E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3B42D7CE35983D1C00BEB50B /* libPods-linlongdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-linlongdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823FCE171D8E3F15001E9560 /* WaterFallMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallMainViewController.h; sourceTree = "<group>"; };
+		823FCE181D8E3F15001E9560 /* WaterFallMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallMainViewController.m; sourceTree = "<group>"; };
+		823FCE1A1D8E7787001E9560 /* DUWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUWaterFallLayout.h; sourceTree = "<group>"; };
+		823FCE1B1D8E7787001E9560 /* DUWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUWaterFallLayout.m; sourceTree = "<group>"; };
+		823FCE201D8E78CC001E9560 /* ZXRShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRShop.h; sourceTree = "<group>"; };
+		823FCE211D8E78CC001E9560 /* ZXRShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRShop.m; sourceTree = "<group>"; };
+		823FCE221D8E78CC001E9560 /* ZXRShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRShopCell.h; sourceTree = "<group>"; };
+		823FCE231D8E78CC001E9560 /* ZXRShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRShopCell.m; sourceTree = "<group>"; };
+		823FCE241D8E78CC001E9560 /* ZXRShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXRShopCell.xib; sourceTree = "<group>"; };
+		823FCE281D8E78DA001E9560 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		94F76D4EB99F72ECB4D2D354 /* Pods-linlongdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linlongdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-linlongdemo/Pods-linlongdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AE641D95CCD4990202595987 /* Pods-linlongdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linlongdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-linlongdemo/Pods-linlongdemo.release.xcconfig"; sourceTree = "<group>"; };
 		E61BE0B41D4E4CD500DBB083 /* HeapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapViewController.h; sourceTree = "<group>"; };
 		E61BE0B51D4E4CD500DBB083 /* HeapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapViewController.m; sourceTree = "<group>"; };
 		E64D74401D7007ED00C10872 /* CategotyToolsTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategotyToolsTestViewController.h; sourceTree = "<group>"; };
@@ -442,7 +459,6 @@
 		E64D79441D71F5F500C10872 /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		E64D79D11D74836700C10872 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
 		E64D79D21D74836700C10872 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
-		E6501B22F28A9AD2E8F82350 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E6A07E541D5F0077009DCFB8 /* NSStringCopyTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCopyTestViewController.h; sourceTree = "<group>"; };
 		E6A07E551D5F0077009DCFB8 /* NSStringCopyTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCopyTestViewController.m; sourceTree = "<group>"; };
 		E6A07E571D5F00FC009DCFB8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -473,28 +489,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7EDFCDDE3609ACCF016421 /* libPods.a in Frameworks */,
+				075336C5DADA388D3DE1DB11 /* libPods-linlongdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48D11A65BABCDDD5059DB077 /* Pods */ = {
+		03CDAC3CEC2547119E233663 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				76B78ABE58440144CF76A53E /* Pods.debug.xcconfig */,
-				E6501B22F28A9AD2E8F82350 /* Pods.release.xcconfig */,
+				3B42D7CE35983D1C00BEB50B /* libPods-linlongdemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61C48664E81D5B85304775A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F76D4EB99F72ECB4D2D354 /* Pods-linlongdemo.debug.xcconfig */,
+				AE641D95CCD4990202595987 /* Pods-linlongdemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9961E754F23C4E24AF70C927 /* Frameworks */ = {
+		823FCE161D8E3EE7001E9560 /* WaterFall */ = {
 			isa = PBXGroup;
 			children = (
-				1DBBBD5A376F2767F4CA6B30 /* libPods.a */,
+				823FCE171D8E3F15001E9560 /* WaterFallMainViewController.h */,
+				823FCE181D8E3F15001E9560 /* WaterFallMainViewController.m */,
+				823FCE1A1D8E7787001E9560 /* DUWaterFallLayout.h */,
+				823FCE1B1D8E7787001E9560 /* DUWaterFallLayout.m */,
+				823FCE201D8E78CC001E9560 /* ZXRShop.h */,
+				823FCE211D8E78CC001E9560 /* ZXRShop.m */,
+				823FCE221D8E78CC001E9560 /* ZXRShopCell.h */,
+				823FCE231D8E78CC001E9560 /* ZXRShopCell.m */,
+				823FCE241D8E78CC001E9560 /* ZXRShopCell.xib */,
+				823FCE281D8E78DA001E9560 /* 1.plist */,
 			);
-			name = Frameworks;
+			path = WaterFall;
 			sourceTree = "<group>";
 		};
 		E61BE0B31D4E4CBA00DBB083 /* NSMutableArrayInHeap */ = {
@@ -1230,6 +1263,7 @@
 		E6D10A791C8981EC0028AA70 = {
 			isa = PBXGroup;
 			children = (
+				823FCE161D8E3EE7001E9560 /* WaterFall */,
 				E64D743F1D7007AA00C10872 /* CategoryTools */,
 				E6A07E531D5F0052009DCFB8 /* NSStringCopyTest */,
 				E61BE0B31D4E4CBA00DBB083 /* NSMutableArrayInHeap */,
@@ -1237,8 +1271,8 @@
 				E6D10AAB1C8998EC0028AA70 /* CustomListOfWifi */,
 				E6D10A841C8981EC0028AA70 /* linlongdemo */,
 				E6D10A831C8981EC0028AA70 /* Products */,
-				48D11A65BABCDDD5059DB077 /* Pods */,
-				9961E754F23C4E24AF70C927 /* Frameworks */,
+				61C48664E81D5B85304775A5 /* Pods */,
+				03CDAC3CEC2547119E233663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1293,12 +1327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D10A991C8981EC0028AA70 /* Build configuration list for PBXNativeTarget "linlongdemo" */;
 			buildPhases = (
-				A13DE713E251A71E9947944B /* Check Pods Manifest.lock */,
+				36789D825E6636791FF38F6A /* [CP] Check Pods Manifest.lock */,
 				E6D10A7E1C8981EC0028AA70 /* Sources */,
 				E6D10A7F1C8981EC0028AA70 /* Frameworks */,
 				E6D10A801C8981EC0028AA70 /* Resources */,
-				16563980D2DC2C29BEFC41BB /* Embed Pods Frameworks */,
-				B0919F2D15FDC046D50BA6CD /* Copy Pods Resources */,
+				E6F3199F3650C10E3BF2C4FE /* [CP] Embed Pods Frameworks */,
+				220CA8952EB012788CEEF2DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1347,7 +1381,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823FCE291D8E78DA001E9560 /* 1.plist in Resources */,
 				E6D10A951C8981EC0028AA70 /* LaunchScreen.storyboard in Resources */,
+				823FCE271D8E78CC001E9560 /* ZXRShopCell.xib in Resources */,
 				E64D79551D71F5F500C10872 /* NSDateTimeAgo.bundle in Resources */,
 				E6D10A921C8981EC0028AA70 /* Assets.xcassets in Resources */,
 				E6D10A901C8981EC0028AA70 /* Main.storyboard in Resources */,
@@ -1357,29 +1393,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16563980D2DC2C29BEFC41BB /* Embed Pods Frameworks */ = {
+		220CA8952EB012788CEEF2DF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linlongdemo/Pods-linlongdemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A13DE713E251A71E9947944B /* Check Pods Manifest.lock */ = {
+		36789D825E6636791FF38F6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1387,19 +1423,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B0919F2D15FDC046D50BA6CD /* Copy Pods Resources */ = {
+		E6F3199F3650C10E3BF2C4FE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linlongdemo/Pods-linlongdemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1463,6 +1499,7 @@
 				E64D79A11D71F5F500C10872 /* UIImage+GIF.m in Sources */,
 				E64D79591D71F5F500C10872 /* NSDictionary+Merge.m in Sources */,
 				E64D796E1D71F5F500C10872 /* NSString+Contains.m in Sources */,
+				823FCE261D8E78CC001E9560 /* ZXRShopCell.m in Sources */,
 				E64D79971D71F5F500C10872 /* UIColor+Web.m in Sources */,
 				E64D79831D71F5F500C10872 /* MKMapView+BetterMaps.m in Sources */,
 				E64D799E1D71F5F500C10872 /* UIImage+Color.m in Sources */,
@@ -1474,6 +1511,7 @@
 				E64D794A1D71F5F500C10872 /* NSBundle+AppIcon.m in Sources */,
 				E64D79981D71F5F500C10872 /* UIControl+ActionBlocks.m in Sources */,
 				E64D79A31D71F5F500C10872 /* UIImage+Orientation.m in Sources */,
+				823FCE191D8E3F15001E9560 /* WaterFallMainViewController.m in Sources */,
 				E64D79C61D71F5F500C10872 /* UIView+Constraints.m in Sources */,
 				E64D799C1D71F5F500C10872 /* UIImage+animatedGIF.m in Sources */,
 				E64D79C41D71F5F500C10872 /* UIView+Animation.m in Sources */,
@@ -1499,6 +1537,7 @@
 				E64D798F1D71F5F500C10872 /* UIButton+Factory.m in Sources */,
 				E64D797F1D71F5F500C10872 /* NSTimer+Blocks.m in Sources */,
 				E64D797B1D71F5F500C10872 /* NSString+Util.m in Sources */,
+				823FCE251D8E78CC001E9560 /* ZXRShop.m in Sources */,
 				E64D796C1D71F5F500C10872 /* NSSet+Block.m in Sources */,
 				E64D79471D71F5F500C10872 /* NSArray+Block.m in Sources */,
 				E64D795B1D71F5F500C10872 /* NSException+Trace.m in Sources */,
@@ -1540,6 +1579,7 @@
 				E64D797C1D71F5F500C10872 /* NSString+UUID.m in Sources */,
 				E64D79B71D71F5F500C10872 /* UIScrollView+Addition.m in Sources */,
 				E64D79AE1D71F5F500C10872 /* UINavigationBar+Awesome.m in Sources */,
+				823FCE1C1D8E7787001E9560 /* DUWaterFallLayout.m in Sources */,
 				E64D79771D71F5F500C10872 /* NSString+Scanner.m in Sources */,
 				E6D10AAE1C8998EC0028AA70 /* WiFiMainController.m in Sources */,
 				E6BF28B51CA391400012F49E /* TextStyleViewController.m in Sources */,
@@ -1663,7 +1703,7 @@
 		};
 		E6D10A9A1C8981EC0028AA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76B78ABE58440144CF76A53E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 94F76D4EB99F72ECB4D2D354 /* Pods-linlongdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1680,7 +1720,7 @@
 		};
 		E6D10A9B1C8981EC0028AA70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6501B22F28A9AD2E8F82350 /* Pods.release.xcconfig */;
+			baseConfigurationReference = AE641D95CCD4990202595987 /* Pods-linlongdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
